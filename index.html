@@ -12,7 +12,7 @@
     <title>Viajes Chile</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-light">
        <a class="navbar-brand nav-titulo" href="#"><img src="/assets/img/icon.svg" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
           </ul>
         </div>
       </nav>
-      <section class="container mt-5 mb-5">
+      <section class="container carousel mt-5 mb-5">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -63,14 +63,14 @@
       </section>
       
 
-<section class="container bg-light mb-5" id="about">
+<section class="container about mb-5" id="about">
     <h3 class="text-center">¿Quiénes somos?</h3>
-    <hr class="bg-success">
+    <hr class="hr-bg">
     <div class="row">
         <div class="col-4">
-          <div class="card bg-info">
+          <div class="card icon-bg">
             <ul class="list-group list-group-flush">
-              <li class="list-group-item bg-info">
+              <li class="list-group-item icon-bg">
                 <div class="text-center">
                    <i class="fas fa-globe-americas"></i>
                 </div>
@@ -82,21 +82,34 @@
         </div>
         <div class="col-4">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam facilis, sit eos velit rem cum odit, eius id, repellat a voluptatibus minima neque voluptates maiores nobis iusto labore? Deleniti, id.</p>
-            <div class="text-center">
-              <i class="fas fa-map-marker-alt"></i>
-            </div> 
+            <div class="card icon-bg">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item icon-bg">
+                  <div class="text-center">
+                     <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>   
         </div>
         <div class="col-4">
-          <div class="text-center">
-            <i class="fas fa-plane-departure"></i>
-          </div> 
+          <div class="card icon-bg">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item icon-bg">
+                <div class="text-center">
+                  <i class="fas fa-plane-departure"></i>
+                </div>
+              </li>
+            </ul>
+          </div>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde ratione eius nemo neque fugiat aliquam dolores nam! Quibusdam velit, earum natus assumenda maxime nihil saepe totam, at fuga hic deleniti.</p>
         </div>
     </div>
 </section>
 
-<section class="container bg-dark" id="featured">
+<section class="container featured" id="featured">
     <h2 class="text-white text-center font-weight-bold">Destacados</h2>
+    <hr class="hr-bg">
     <div class="row">
         <div class="col-sm-12 col-md-3">
             <div class="card mb-4">
@@ -140,13 +153,12 @@
 
 </section>
 <section class="container mb-5 mt-5" id="contact">
-  <h3 class="text-white text-center font-weight-bold">Contacto</h3>
-  <div class="typeform-widget" data-url="https://form.typeform.com/to/NUNVKEQw?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>  
+  <h3 class="text-center font-weight-bold mb-3">Contacto</h3>
+  <hr class="hr-bg">
+  <div class="typeform-widget" data-url="https://form.typeform.com/to/NUNVKEQw?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 </section>
-
-<!-- toltips en el footer click aki para ir a nuestras rrss-->
    
- <footer class="container bg-info">
+ <footer class="container">
     <div class="row">
         <div class="col-6 text-center">
          <h2>Viajes de Chile</h2> 
