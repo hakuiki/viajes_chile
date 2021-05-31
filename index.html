@@ -12,29 +12,32 @@
     <title>Viajes Chile</title>
 </head>
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light">
-       <a class="navbar-brand nav-titulo" href="#"><img src="/assets/img/icon.svg" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Quienes somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#featured">Destacados</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contacto</a>
-              </li>
-            
-          </ul>
-        </div>
-      </nav>
+      <a class="navbar-brand nav-titulo" href="#"><img src="/assets/img/icon.svg" alt=""></a><h5>Viajes Chile</h5>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item active">
+             <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#about">Quienes somos</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#featured">Destacados</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="#contact">Contacto</a>
+             </li>
+           
+         </ul>
+       </div>
+     </nav>
+
+    
       <section class="container carousel mt-5 mb-5">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -63,7 +66,7 @@
       </section>
       
 
-<section class="container about mb-5" id="about">
+<section class="container about mb-5 d-none d-sm-none d-md-block" id="about">
     <h3 class="text-center">¿Quiénes somos?</h3>
     <hr class="hr-bg">
     <div class="row">
@@ -82,7 +85,7 @@
         </div>
         <div class="col-4">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam facilis, sit eos velit rem cum odit, eius id, repellat a voluptatibus minima neque voluptates maiores nobis iusto labore? Deleniti, id.</p>
-            <div class="card icon-bg">
+            <div class="card icon-bg mb-3">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item icon-bg">
                   <div class="text-center">
@@ -115,7 +118,7 @@
             <div class="card mb-4">
                 <img src="/assets/img/card-img-1.jpg" class="card-img-top" alt="card-img-1">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Dientes de Navarino)</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iste possimus mollitia voluptatibus maxime explicabo quia ex recusandae a? Minima similique non nihil</p>
                 </div>
             </div>
@@ -124,7 +127,7 @@
             <div class="card mb-4">
                 <img src="/assets/img/card-img-2.jpg" class="card-img-top" alt="card-img-2">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Ventisquero Colgante</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iste possimus mollitia voluptatibus maxime explicabo quia ex recusandae a? Minima similique non nihil</p>
                 </div>
             </div>
@@ -133,7 +136,7 @@
             <div class="card mb-4">
                 <img src="/assets/img/card-img-3.jpg" class="card-img-top" alt="card-img-3">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">La Junta</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iste possimus mollitia voluptatibus maxime explicabo quia ex recusandae a? Minima similique non nihil</p>
                 </div>
             </div>
@@ -142,7 +145,7 @@
             <div class="card mb-4">
                 <img src="/assets/img/card-img-4.jpg" class="card-img-top" alt="card-img-4">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Salar de Tara)</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iste possimus mollitia voluptatibus maxime explicabo quia ex recusandae a? Minima similique non nihil</p>
                 </div>
             </div>
@@ -152,13 +155,13 @@
     </div>
 
 </section>
-<section class="container mb-5 mt-5" id="contact">
+<section class="container mb-3 mt-5" id="contact">
   <h3 class="text-center font-weight-bold mb-3">Contacto</h3>
   <hr class="hr-bg">
   <div class="typeform-widget" data-url="https://form.typeform.com/to/NUNVKEQw?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 </section>
    
- <footer class="container">
+ <footer>
     <div class="row">
         <div class="col-6 text-center">
          <h2>Viajes de Chile</h2> 
