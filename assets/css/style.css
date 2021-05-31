@@ -4,16 +4,11 @@ body {
 
 }
 
-.icon {
-    color: black;
-}
-
-footer {
-    background: #DE7F5B;
-}
-
 .navbar {
    background:#DE7F5B; 
+}
+.icon {
+    color: black;
 }
 
 .about {
@@ -33,3 +28,6 @@ footer {
     background: #DF7E5D;
 }
 
+footer {
+    background: #DE7F5B;
+}
